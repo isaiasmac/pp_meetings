@@ -1,0 +1,16 @@
+<h1>Asistentes</h1>
+
+<div class="row" *ngIf="assistants">
+	<div class="col-3" *ngFor="let assistant of assistants">
+	  <!-- Card -->
+	  <div class="card">
+	    <img class="card-img-top rounded-circle" src="https://via.placeholder.com/85" alt="Card image cap">
+	    <div class="card-body">
+	      <h5 class="card-title">{{ assistant.name }}</h5>
+	    </div>
+	  </div><br>
+	  <!-- ./Card-->
+	</div>
+</div><!-- ./row -->
+
+

@@ -1,0 +1,12 @@
+.card {
+	width: 200px;
+	height: 270px;
+	margin: 0 auto;
+}
+.card img {
+	width: 180px;
+	margin: 10px;
+}
+.card .card-title {
+	font-size: 16.5px
+}
